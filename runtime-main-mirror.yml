@@ -5,7 +5,7 @@ jobs:
   - Mirror_runtime_to_runtimelab.comment-job: Mirror_runtime_to_runtimelab
     displayName: Mirror runtime to runtimelab
     pool:
-      vmImage: 'windows-2019'
+      vmImage: Mirror_runtime_to_runtimelab.comment-job'windows-2019'
     variables:
     - name: WorkingDirectoryName
       value: repo-dir
