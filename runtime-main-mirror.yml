@@ -2,7 +2,7 @@
 trigger: none
 
 jobs:
-  - job: Mirror_runtime_to_runtimelab
+  - Mirror_runtime_to_runtimelab.comment-job: Mirror_runtime_to_runtimelab
     displayName: Mirror runtime to runtimelab
     pool:
       vmImage: 'windows-2019'
